@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revição de Manipulação do DOM</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .selecionado {
+            background-color: rgb(0, 0, 145);
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="text-black">
+
+    <main class="w-full min-h-[100vh] bg-gray-500 flex justify-center py-5 md:py-12 items-start">
+        <div
+            class="border-3 border-black rounded-md overflow-hidden py-5 px-8 bg-gray-200 w-full max-w-[90%] md:max-w-[80%]">
+            <h1 class="text-3xl text-center">Revisão de Manipulação do DOM</h1>
+            <div class="flex flex-wrap ">
+                <div
+                    class="w-1/2 py-5 gap-5 grid grid-cols-2 md:grid-cols-3 justify-between items-start content-start container-botao">
+                </div>
+                <div class="p-5 w-1/2">
+                    <div action="" class="w-full border-3 p-3 form"></div>
+                </div>
+            </div>
+            <div class="painel-de-referencia p-3 border-3 rounded-md my-3">
+                <h2 class="text-xl font-semibold border-b-2 block">Status do Elemento:</h2>
+                <ul>
+                    <li>Elemento: <span id="elemento"></span></li>
+                    <li>Texto: <span id="texto"></span></li>
+                    <li>Classes: <span id="classes"></span></li>
+                    <li>Elemento(s) Filho(s): <span id="filho"></span></li>
+                </ul>
+            </div>
+            <div class="flex w-full justify-center items-center min-h-[300px] border-3 rounded-md painel"></div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
