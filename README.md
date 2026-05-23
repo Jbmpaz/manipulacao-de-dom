@@ -40,12 +40,6 @@ O projeto foi criado como forma de praticar:
 - JavaScript
 - TailwindCSS
 
----
-
-## 📸 Projeto Online
-
-🔗 **Acessar Projeto:**  
-https://jbpaz.infinityfreeapp.com/projetos/manipulacao-de-dom/
 
 ---
 
