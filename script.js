@@ -52,7 +52,7 @@ let textosDoFormulario = [
 
 // criar divs
 let criarDiv = new criarElemento()
-criarDiv.forEachFuncao(textosDoFormulario, 'div', ['class'], ['divForm py-2 flex justify-center gap-4'], formulario, false)
+criarDiv.forEachFuncao(textosDoFormulario, 'div', ['class'], ['divForm py-2 flex justify-center gap-4 flex-col md:flex-row'], formulario, false)
 
 // criar INPUT e BUTTON do Formulario
 let divForm = document.querySelectorAll('.divForm')
